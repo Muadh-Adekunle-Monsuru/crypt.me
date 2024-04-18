@@ -1,29 +1,35 @@
 import { BeakerIcon } from '@heroicons/react/24/solid';
 export default function Header() {
 	return (
-		<div className='grid grid-cols-4 w-full gap-5'>
-			<div className=' col-span-3 border-white py-3 rounded-full bg-gradient-to-b from-zinc-900 to-zinc-800 p-1 border-b border-b-zinc-500 border-x border-x-zinc-500 border-t border-t-zinc-700 flex flex-row items-center hover:animate-pulse'>
+		<div className='grid  lg:grid-cols-4 w-full gap-5'>
+			<div className='col-span-1 lg:col-span-3 border-white py-2 lg:py-3 rounded-full bg-gradient-to-b from-zinc-900 to-zinc-800 p-1 border-b border-b-zinc-500 border-x border-x-zinc-500 border-t border-t-zinc-700 flex flex-row items-center hover:animate-pulse justify-between lg:justify-start'>
 				<div className='pr-10'>
 					<p className='text-sm items-center pl-5 cursor-pointer select-none'>
 						Crypt.Me®
 					</p>
 				</div>
-				<div className='flex flex-row gap-6 items-center text-sm'>
-					<p className='cursor-pointer hover:drop-shadow-sm transition duration-300  ease-in-out hover:scale-105 '>
-						Personal
-					</p>
-					<p className='cursor-pointer hover:drop-shadow-sm transition duration-300  ease-in-out hover:scale-105 '>
-						Business
-					</p>
-					<p className='cursor-pointer hover:drop-shadow-sm transition duration-300  ease-in-out hover:scale-105 '>
-						Features
-					</p>
-					<p className='cursor-pointer hover:drop-shadow-sm transition duration-300  ease-in-out hover:scale-105 '>
-						Trading
-					</p>
+				<div className='lg:hidden cursor-pointer select-none px-5 border bg-zinc-300 rounded-full py-2 shadow-md shadow-zinc-200/50 text-black text-xs'>
+					Get the app
+				</div>
+
+				<div className='hidden lg:block'>
+					<div className='flex flex-row gap-6 items-center text-sm'>
+						<p className='cursor-pointer hover:drop-shadow-sm transition duration-300  ease-in-out hover:scale-105 '>
+							Personal
+						</p>
+						<p className='cursor-pointer hover:drop-shadow-sm transition duration-300  ease-in-out hover:scale-105 '>
+							Business
+						</p>
+						<p className='cursor-pointer hover:drop-shadow-sm transition duration-300  ease-in-out hover:scale-105 '>
+							Features
+						</p>
+						<p className='cursor-pointer hover:drop-shadow-sm transition duration-300  ease-in-out hover:scale-105 '>
+							Trading
+						</p>
+					</div>
 				</div>
 			</div>
-			<div className='flex flex-row gap-3 pl-5 items-center justify-between border-white py-1 rounded-full bg-gradient-to-b from-zinc-900 to-zinc-800 p-1 border-b border-b-zinc-500 border-x border-x-zinc-500 border-t border-t-zinc-700 '>
+			<div className='hidden lg:flex flex-row gap-3 pl-5 items-center justify-between border-white py-1 rounded-full bg-gradient-to-b from-zinc-900 to-zinc-800 p-1 border-b border-b-zinc-500 border-x border-x-zinc-500 border-t border-t-zinc-700 '>
 				<div className='w-4 text-white cursor-pointer'>
 					<BeakerIcon className='h-4 w-4 text-white' />
 				</div>
