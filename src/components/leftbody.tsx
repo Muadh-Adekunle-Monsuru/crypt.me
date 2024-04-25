@@ -24,7 +24,7 @@ export default function LeftBody() {
 					</h1>
 				</div>
 				<div className='pt-5 text-sm'>
-					Buy, sell, invest your crypto assets. It's that simple.
+					Buy, sell, invest your crypto assets. Its that simple.
 				</div>
 				<div className='mt-3 px-4 bg-gradient-to-t from-gray-600 to-gray-800 rounded-[20px] py-4 shadow-lg  text-white w-40 cursor-pointer mb-3'>
 					<p className='text-sm text-center'>Create my wallet</p>
