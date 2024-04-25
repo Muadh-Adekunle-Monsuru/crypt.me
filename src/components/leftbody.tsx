@@ -1,4 +1,3 @@
-import { tangerine } from '@/app/layout';
 export default function LeftBody() {
 	return (
 		<div className='h-full bg-[#D3E3A3] rounded-[25px] text-black flex flex-col justify-between row-span-3'>
@@ -18,7 +17,7 @@ export default function LeftBody() {
 					<h1 className='text-5xl font-semibold'>
 						Your new 💎
 						<span className='italic text-fuchsia-500 text-6xl font-bold'>
-							<span className={tangerine.className}>favorite </span>
+							<span>favorite </span>
 						</span>
 						<span>crypto app</span>
 					</h1>
